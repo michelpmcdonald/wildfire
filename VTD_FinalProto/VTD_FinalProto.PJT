@@ -1,0 +1,46 @@
+[PROJECT]
+Target=VTD_FinalProto.HEX
+Development_Mode=
+Processor=0x6722
+ToolSuite=CCS
+
+[Directories]
+Include=C:\Program Files\PICC\devices\;C:\Program Files\PICC\dr;..\Common;
+Library=
+LinkerScript=
+
+[Target Data]
+FileList=VTD_FinalProto.c;
+BuildTool=C-COMPILER
+OptionString=+FH
+AdditionalOptionString=
+BuildRequired=1
+
+[VTD_FinalProto.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+
+[mru-list]
+1=VTD_FinalProto.c
+
+[Windows]
+0=0000 VTD_FinalProto.c 0 0 796 451 3 0
+
+[Opened Files]
+1=C:\Documents and Settings\Michel\My Documents\FirstResponderNet\Device\VTD_FinalProto\VTD_FinalProto.c
+2=..\Common\USIV2A.h
+3=..\Common\TdLocReport.h
+4=..\Common\FR_Queue.h
+5=..\Common\FR_Zigbee.h
+6=..\Common\SerialServer.h
+7=..\Common\Gps.h
+8=
+9=C:\Program Files\PICC\drivers\string.h
+10=C:\Program Files\PICC\drivers\ctype.h
+11=..\Common\SerialServer.h
+12=..\Common\Gps.h
+13=

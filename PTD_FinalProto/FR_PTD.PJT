@@ -1,0 +1,43 @@
+[PROJECT]
+Target=FR_PTD.HEX
+Development_Mode=
+Processor=0x6722
+ToolSuite=CCS
+
+[Directories]
+Include=C:\Program Files\PICC\devices\;C:\Program Files\PICC\dr;..\Common;
+Library=
+LinkerScript=
+
+[Target Data]
+FileList=FR_PTD.c;
+BuildTool=C-COMPILER
+OptionString=+FH
+AdditionalOptionString=
+BuildRequired=1
+
+[FR_PTD.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+
+[mru-list]
+1=FR_PTD.c
+
+[Windows]
+0=0000 FR_PTD.c 0 0 796 451 3 0
+
+[Opened Files]
+1=C:\Documents and Settings\michel\My Documents\Code\FirstResponder\Device\PTD_FinalProtoType\FR_PTD.c
+2=..\Common\FR_Zigbee.h
+3=..\Common\TdLocReport.h
+4=..\Common\Gps.h
+5=
+6=C:\Program Files\PICC\drivers\ctype.h
+7=..\Common\FR_Zigbee.h
+8=..\Common\TdLocReport.h
+9=..\Common\Gps.h
+10=

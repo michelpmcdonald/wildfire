@@ -1,0 +1,45 @@
+[PROJECT]
+Target=CN_FinalProto.HEX
+Development_Mode=
+Processor=0x6722
+ToolSuite=CCS
+
+[Directories]
+Include=C:\Program Files\PICC\devices\;C:\Program Files\PICC\dr;..\Common;
+Library=
+LinkerScript=
+
+[Target Data]
+FileList=CN_FinalProto.c;
+BuildTool=C-COMPILER
+OptionString=+FH
+AdditionalOptionString=
+BuildRequired=1
+
+[CN_FinalProto.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+
+[mru-list]
+1=CN_FinalProto.c
+
+[Windows]
+0=0000 CN_FinalProto.c 0 0 796 451 3 0
+
+[Opened Files]
+1=C:\F-DRIVE\BUSINESS\Praxis\FloridaWildFire\Software\Michel\Device\CN_FinalProto\CN_FinalProto.c
+2=C:\Program Files\PICC\devices\18F6722.h
+3=C:\Program Files\PICC\drivers\STDDEF.H
+4=..\Common\USIV2A.h
+5=..\Common\TdLocReport.h
+6=..\Common\FR_Queue.h
+7=..\Common\FR_Zigbee.h
+8=C:\Program Files\PICC\drivers\stdlib.h
+9=C:\Program Files\PICC\drivers\string.h
+10=C:\Program Files\PICC\drivers\ctype.h
+11=..\Common\SerialServer.h
+12=
